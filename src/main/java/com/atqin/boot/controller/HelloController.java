@@ -1,5 +1,6 @@
 package com.atqin.boot.controller;
 
+import com.fasterxml.jackson.databind.ser.std.SqlDateSerializer;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -25,6 +26,8 @@ public class HelloController {
         return "hello spring boot 2!";
     }
 
+
+//    nihao
 
 
 }
